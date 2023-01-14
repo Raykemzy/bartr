@@ -1,0 +1,16 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+CommentDto _$CommentDtoFromJson(Map<String, dynamic> json) => CommentDto(
+      commentText: json['commentText'] as String,
+      mentionedUsers: (json['mentionedUsers'] as List<dynamic>)
+          .map((e) => e as String)
+          .toList(),
+    );
+
+Map<String, dynamic> _$CommentDtoToJson(CommentDto instance) =>
+    <String, dynamic>{
+      'commentText': instance.commentText,
+      'mentionedUsers': instance.mentionedUsers,
+    };

@@ -1,0 +1,15 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+ConversationDto _$ConversationDtoFromJson(Map<String, dynamic> json) =>
+    ConversationDto(
+      userOne: json['userOne'] as String,
+      userTwo: json['userTwo'] as String,
+    );
+
+Map<String, dynamic> _$ConversationDtoToJson(ConversationDto instance) =>
+    <String, dynamic>{
+      'userOne': instance.userOne,
+      'userTwo': instance.userTwo,
+    };
