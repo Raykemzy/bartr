@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "46597783899",
+    "project_id": "bartr-8fa2f",
+    "storage_bucket": "bartr-8fa2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46597783899:android:cd97d440bb7b2005791a7e",
+        "android_client_info": {
+          "package_name": "com.mybartr.bartrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46597783899-jehirnlrna0ticg9pv37v5e1glv6akj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3wYbBFbSqgfoPhgjtDFhPFE157Vlf_NA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46597783899-jehirnlrna0ticg9pv37v5e1glv6akj8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "46597783899-28709d74rrg58v6qhho0s5f23pvfppn0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mybartr.bartrapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
