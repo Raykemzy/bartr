@@ -20,7 +20,7 @@ class SplashScreen extends StatefulHookConsumerWidget {
 class _SplashScreenState extends ConsumerState<SplashScreen> {
   @override
   void initState() {
-    _checkVersion();
+    //_checkVersion();
     super.initState();
   }
 
