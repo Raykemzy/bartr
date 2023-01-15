@@ -21,6 +21,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   @override
   void initState() {
     //_checkVersion();
+    _init();
     super.initState();
   }
 
